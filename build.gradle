@@ -34,7 +34,9 @@ dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	runtimeOnly('org.springframework.boot:spring-boot-devtools')
 	implementation('org.webjars.npm:bootstrap:3.4.1')
+	implementation('org.webjars:jquery:1.11.1')
 	implementation('org.projectlombok:lombok')
+	implementation group: 'de.flapdoodle.embed', name: 'de.flapdoodle.embed.mongo'
 	annotationProcessor('org.projectlombok:lombok')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	testImplementation('junit:junit:4.13.2')
